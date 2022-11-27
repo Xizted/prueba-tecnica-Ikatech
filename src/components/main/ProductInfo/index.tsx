@@ -25,7 +25,7 @@ const ProductInfo = ({ name, price, reference, photo }: ProductInfoProps) => {
         <p className='uppercase text-lg text-gray-600 font-bold'>Color</p>
         <div className='w-1/6 border border-gray-600 cursor-pointer mt-2'>
           <img
-            src={`/img/${photo}`}
+            src={`./img/${photo}`}
             alt='color 1 de zapato'
             className='w-max h-auto inline-block'
           />

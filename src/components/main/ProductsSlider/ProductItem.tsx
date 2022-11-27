@@ -34,12 +34,12 @@ const ProductItem = ({
       }`}
     >
       <div className='w-60 h-60 flex items-center justify-center'>
-        <img src={`/img/${photo}`} alt={name} className='w-full h-auto' />
+        <img src={`./img/${photo}`} alt={name} className='w-full h-auto' />
       </div>
       <div className='flex self-start items-end w-14 gap-5 mt-5 '>
-        <img src={`/img/${photo}`} alt={name} className={`w-full h-auto`} />
-        <img src={`/img/${photo}`} alt={name} className={`w-full h-auto`} />
-        <img src={`/img/${photo}`} alt={name} className={`w-full h-auto`} />
+        <img src={`./img/${photo}`} alt={name} className={`w-full h-auto`} />
+        <img src={`./img/${photo}`} alt={name} className={`w-full h-auto`} />
+        <img src={`./img/${photo}`} alt={name} className={`w-full h-auto`} />
       </div>
       <div className='flex flex-col text-center mt-5 mb-2'>
         <h3 className='font-semibold text-gray-800'>{name}</h3>
